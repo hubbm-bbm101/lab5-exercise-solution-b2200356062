@@ -3,7 +3,7 @@
 email = str(input('enter your email: '))
 
 def f(email):
-    if "@" and "." in email:
+    if "@" in email and "." in email:
         print('this is a valid email')
     else:
         print("this is not a valid email")
